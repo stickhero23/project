@@ -4,7 +4,7 @@
 #include <QMainWindow>
 
 namespace Ui {
-class MainWindow;
+class ProgramingCourses;
 }
 
 class MainWindow : public QMainWindow
@@ -16,7 +16,7 @@ public:
     ~MainWindow();
     
 private:
-    Ui::MainWindow *ui;
+    Ui::ProgramingCourses *ui;
 };
 
 #endif // MAINWINDOW_H

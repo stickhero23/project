@@ -1,10 +1,10 @@
-#include "mainwindow.h"
+#include "courseadminwindow.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
+    CourseAdminWindow w;
     w.show();
     
     return a.exec();

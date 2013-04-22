@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2013-04-18T12:59:26
+# Project created by QtCreator 2013-04-22T18:22:51
 #
 #-------------------------------------------------
 
@@ -13,8 +13,8 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        courseadminwindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += courseadminwindow.h
 
-FORMS    += mainwindow.ui
+FORMS    += courseadminwindow.ui
