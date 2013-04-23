@@ -1,11 +1,12 @@
 #ifndef COURSE_H
 #define COURSE_H
 
-/*Course.h
- *
-*/
-class Course{
+namespace school{
+class Course
+{
 public:
+    Course();
+    ~Course();
     std::string GetCourseName();
     std::string GetCourseId();
     unsigned int GetCourseCredit();
@@ -22,6 +23,6 @@ private:
     std::string courseObjectives;
     std::vector<Course> activeCourse;
     std::vector<Course> endedCourse;
-
 };
+}
 #endif // COURSE_H

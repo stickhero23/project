@@ -13,8 +13,28 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        courseadminwindow.cpp
+        courseadminwindow.cpp \
+    ../person.cpp \
+    course.cpp \
+    ../student.cpp \
+    ../course.cpp \
+    teacher.cpp \
+    ../teacher.cpp \
+    ../../assignment.cpp \
+    ../assignment.cpp \
+    ../answer.cpp \
+    ../register.cpp
 
-HEADERS  += courseadminwindow.h
+HEADERS  += courseadminwindow.h \
+    ../person.h \
+    course.h \
+    ../student.h \
+    ../course.h \
+    ../teacher.h \
+    ../../assignment.h \
+    ../../assignment.h \
+    ../assignment.h \
+    ../answer.h \
+    ../register.h
 
 FORMS    += courseadminwindow.ui
