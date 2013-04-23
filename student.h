@@ -7,6 +7,8 @@ class Student
 public:
     Student(std::string name);
     ~Student();
+private:
+    unsigned int studentId;
 };
 }
 #endif // STUDENT_H

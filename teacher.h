@@ -5,6 +5,9 @@ class Teacher
 {
 public:
     Teacher();
+    ~Teacher();
+private:
+    
 };
 
 #endif // TEACHER_H
